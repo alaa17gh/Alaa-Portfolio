@@ -806,6 +806,30 @@
       letter-spacing: 0.08em;
     }
 
+    .projects-subsection {
+      margin-bottom: 3rem;
+    }
+
+    .subsection-title {
+      font-family: var(--font-head);
+      font-size: clamp(1rem, 2vw, 1.3rem);
+      color: var(--cyan);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 1.2rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .subsection-note {
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      padding: 1.5rem;
+      border: 1px dashed var(--border);
+      letter-spacing: 0.05em;
+    }
+
     /* CTA */
     .cta-block {
       border: 1px solid var(--border);
