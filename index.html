@@ -1,0 +1,685 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Alaa Aljanaby - Frontend Developer Portfolio | Baghdad, Iraq"
+    />
+    <meta property="og:title" content="Alaa Aljanaby — Frontend Developer" />
+    <meta
+      property="og:description"
+      content="Frontend Developer building modern, interactive web experiences. Available for freelance work."
+    />
+    <title>ALAA AL-JANABY | Frontend Developer</title>
+    <link rel="icon" type="image/png" href="logo.PNG" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&family=Rajdhani:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- LOADING -->
+      <div class="loader-container">
+        <div class="glass-wrapper">
+          <div class="glass-card-loader"></div>
+        </div>
+      </div>
+
+    <!-- PAGE -->
+    <div class="background-blur"></div>
+    <div class="main-card">
+      <!-- HEADER -->
+      <div class="header">
+        <header class="hdr-card">
+          <p class="brand">
+            ALAA_ALJANABY<span class="brand-semicolon">;</span>
+          </p>
+          <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Menu"
+            aria-expanded="false"
+          >
+            <span></span><span></span><span></span>
+          </button>
+        </header>
+
+        <nav class="mobile-nav" id="mobileNav">
+          <div class="mobile-brand">ALAA_ALJANABY<span>;</span></div>
+          <a href="#hero" onclick="closeMobileNav()">Home</a>
+          <a href="#about" onclick="closeMobileNav()">About</a>
+          <a href="#education" onclick="closeMobileNav()">Education</a>
+          <a href="#certifications" onclick="closeMobileNav()"
+            >Certifications</a
+          >
+          <a href="#experience" onclick="closeMobileNav()">Experience</a>
+          <a href="#skills" onclick="closeMobileNav()">Skills</a>
+          <a href="#languages" onclick="closeMobileNav()">Languages</a>
+          <a href="#projects" onclick="closeMobileNav()">Projects</a>
+          <a href="#contact-section" onclick="closeMobileNav()">Contact</a>
+        </nav>
+      </div>
+      <!-- HERO -->
+      <section id="hero">
+        <div class="hero-card">
+          <!-- Image Card -->
+          <div class="img-card">
+            <img
+              src="alaa.jpg"
+              alt="Alaa Aljanaby"
+              class="profile-img"
+              loading="eager"
+            />
+            <div class="img-info">
+              <span class="img-name">ALAA ALJANABY</span>
+            </div>
+          </div>
+          <p class="hero-desc">
+            Building modern, interactive, and visually compelling web
+            experiences with precision and attention to detail.
+          </p>
+          <button class="btn-primary" onclick="location.href = '#projects'">
+            View My Work
+          </button>
+        </div>
+      </section>
+      <!-- ABOUT -->
+      <section id="about">
+        <div class="about-card">
+<h2 class="section-title reveal">About Me</h2>
+
+          <div class="about-grid">
+          <!-- Text Card -->
+          <div class="inner-card about-text reveal">
+            <p>
+              <strong>Frontend Developer</strong> passionate about crafting
+              modern, high-performance web experiences.
+            </p>
+            <p>
+              I specialize in building clean, interactive interfaces with a
+              sharp eye for detail — from concept to deployment. Whether it's a
+              business management system, a client website, or a freelance
+              project, I focus on understanding needs deeply and delivering
+              fast, functional, and visually polished solutions.
+            </p>
+            <p>
+              I am currently studying for a Bachelor's degree in
+              <strong>Information Technology</strong> at Al-Esraa University
+              College.
+            </p>
+          </div>
+
+          <!-- Info Card -->
+          <div class="inner-card reveal">
+            <div class="info-row">
+              <span class="info-label">Location</span>
+              <span class="info-val">Baghdad, Iraq</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Email</span>
+              <span class="info-val">
+                <a href="mailto:alaa.aljanaby.17gh@gmail.com"
+                  >alaa.aljanaby.17gh@gmail.com</a
+                >
+              </span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Phone</span>
+              <span class="info-val">
+                <a href="tel:+9647890580087">+964 789 058 0087</a>
+              </span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Status</span>
+              <span class="info-val status-open">Open to freelance</span>
+             </div>
+          </div>
+          </div><!-- /about-grid -->
+        </div>
+      </section>
+      <!-- EDUCATION -->
+      <section id="education">
+        <div class="section-card">
+<h2 class="section-title reveal">Education</h2>
+
+          <div class="inner-card reveal">
+            <h3>Bachelor of Information Technology</h3>
+            <p>Al-Esraa University College — Baghdad, Iraq</p>
+            <span class="tag">2023 – 2027</span>
+          </div>
+
+          <div class="inner-card reveal">
+            <h3>Web Development — Self Learning</h3>
+            <p>Online courses, documentation, and hands-on projects</p>
+            <span class="tag">2024 – Present</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATIONS -->
+      <section id="certifications">
+        <div class="section-card">
+<h2 class="section-title reveal">Certifications</h2>
+
+          <div class="inner-card reveal">
+            <h3>Artificial Intelligence — One Million Prompters</h3>
+            <p>Dubai Center For Artificial Intelligence — UAE</p>
+            <a
+              class="cert-link"
+              href="https://omp.dub.ai/certificate/MbbKESDzsGM9"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Certificate ↗
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- EXPERIENCE -->
+      <section id="experience">
+        <div class="section-card">
+<h2 class="section-title reveal">Experience</h2>
+
+          <div class="inner-card reveal">
+            <h3>Freelance Web Developer</h3>
+            <p>
+              Working on personal and client projects — building responsive
+              websites and custom web solutions for various clients.
+            </p>
+            <span class="tag">2025 – Present</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills">
+        <div class="section-card">
+<h2 class="section-title reveal">Skills</h2>
+
+          <div class="inner-card reveal">
+            <h3>Frontend</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Responsive Design</span>
+            </div>
+          </div>
+
+          <div class="inner-card reveal">
+            <h3>Programming Languages</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">C</span>
+              <span class="skill-tag">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="inner-card reveal">
+            <h3>Database</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">SQL</span>
+            </div>
+          </div>
+
+          <div class="inner-card reveal">
+            <h3>Tools & Other</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">Cross-Browser Compatibility</span>
+              <span class="skill-tag">REST APIs</span>
+            </div>
+          </div>
+          <div class="inner-card reveal">
+            <h3>Frameworks & Libraries</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">React.js</span>
+              <span class="skill-tag">Bootstrap</span>
+            </div>
+          </div>
+
+          <div class="inner-card reveal">
+            <h3>Design</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">UI/UX</span>
+              <span class="skill-tag">Figma</span>
+              <span class="skill-tag">Google Stitch</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- LANGUAGES -->
+      <section id="languages">
+        <div class="section-card">
+<h2 class="section-title reveal">Languages</h2>
+
+          <div class="inner-card reveal">
+            <div class="lang-top">
+              <h3>Arabic</h3>
+              <span class="lang-level">NATIVE</span>
+            </div>
+            <div
+              class="lang-bar"
+              role="progressbar"
+              aria-label="Arabic proficiency"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="lang-bar-fill" style="width: 100%"></div>
+            </div>
+          </div>
+
+          <div class="inner-card reveal">
+            <div class="lang-top">
+              <h3>English</h3>
+              <span class="lang-level">GOOD</span>
+            </div>
+            <div
+              class="lang-bar"
+              role="progressbar"
+              aria-label="English proficiency"
+              aria-valuenow="65"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="lang-bar-fill" style="width: 65%"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- PROJECTS -->
+      <section id="projects">
+        <div class="section-card">
+<h2 class="section-title reveal">Projects</h2>
+
+          <!-- Real Projects -->
+          <div class="subsection reveal">
+            <span class="subsection-title">Real Projects</span>
+            <div class="inner-card">
+              <p class="subsection-note">
+                // No projects added yet — check back soon.
+              </p>
+            </div>
+          </div>
+
+          <hr class="divider" />
+
+          <!-- Private Projects -->
+          <div class="subsection">
+            <span class="subsection-title reveal">Private Projects</span>
+
+            <div class="inner-card reveal">
+              <p class="proj-num">PROJECT_01</p>
+              <h3>Hotel Management System — Academic Project</h3>
+              <p>
+                A Java-based application developed as a university project to
+                manage hotel operations, including room bookings, customer
+                records, and reservation tracking. Built to simulate real-world
+                workflows and improve operational efficiency.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">UI/UX</span>
+              </div>
+              <span class="project-note"
+                >🔒 Restricted — Academic Use Only</span
+              >
+            </div>
+
+            <div class="inner-card reveal">
+              <p class="proj-num">PROJECT_02</p>
+              <h3>Customer Management Web App — Confidential</h3>
+              <p>
+                A custom-built web application developed for a private client to
+                manage customer data, including contact details and service
+                status. Project details are kept confidential to ensure data
+                privacy and client security.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">UI/UX</span>
+              </div>
+              <span class="project-note">🔒 NDA — Not Publicly Available</span>
+            </div>
+          </div>
+
+          <hr class="divider" />
+
+          <!-- Virtual Projects -->
+          <div class="subsection">
+            <span class="subsection-title reveal">Virtual Projects</span>
+
+            <div class="inner-card reveal">
+              <p class="proj-num">PROJECT_01</p>
+              <h3>Coffee Website</h3>
+              <p>
+                Modern café website with fully responsive design, smooth
+                animations, and an inviting visual identity.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">HTML</span
+                ><span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span
+                ><span class="tech-tag">UI/UX</span>
+              </div>
+              <a
+                class="project-link"
+                href="https://alaa17gh.github.io/caffe/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Live Demo ↗</a
+              >
+            </div>
+
+            <div class="inner-card reveal">
+              <p class="proj-num">PROJECT_02</p>
+              <h3>Clothing Store Website</h3>
+              <p>
+                A modern clothing store website with a clean and elegant design,
+                smooth browsing experience, and fully responsive layout across
+                all devices.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">HTML</span
+                ><span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span
+                ><span class="tech-tag">UI/UX</span>
+              </div>
+              <a
+                class="project-link"
+                href="https://alaa17gh.github.io/The-Outfits-Store/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Live Demo ↗</a
+              >
+            </div>
+
+            <div class="inner-card reveal">
+              <p class="proj-num">PROJECT_03</p>
+              <h3>Contracting Company Website</h3>
+              <p>
+                A professional website for a contracting and construction
+                company, showcasing services, completed projects, and company
+                profile with a strong and trustworthy visual identity.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">HTML</span
+                ><span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span
+                ><span class="tech-tag">UI/UX</span>
+              </div>
+              <a
+                class="project-link"
+                href="https://alaa17gh.github.io/alrayah-construction/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Live Demo ↗</a
+              >
+            </div>
+
+            <div class="inner-card reveal">
+              <p class="proj-num">PROJECT_04</p>
+              <h3>Restaurant Website</h3>
+              <p>
+                An elegant restaurant website featuring the full menu,
+                reservation system, and an appetizing visual experience designed
+                to attract and engage customers.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">HTML</span
+                ><span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span
+                ><span class="tech-tag">UI/UX</span>
+              </div>
+              <a
+                class="project-link"
+                href="https://alaa17gh.github.io/Skyline-Restaurant/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Live Demo ↗</a
+              >
+            </div>
+
+            <div class="inner-card reveal">
+              <p class="proj-num">PROJECT_05</p>
+              <h3>Hospital Website</h3>
+              <p>
+                A modern and trustworthy hospital website featuring a full
+                directory of medical departments and specialist doctors, an
+                easy-to-use appointment booking system, and a clean clinical
+                design.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">HTML</span
+                ><span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span
+                ><span class="tech-tag">UI/UX</span>
+              </div>
+              <a
+                class="project-link"
+                href="https://alaa17gh.github.io/Al-ShifaMedicalCenter/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Live Demo ↗</a
+              >
+            </div>
+
+            <div class="inner-card reveal">
+              <p class="proj-num">PROJECT_06</p>
+              <h3>Luxury Hotel Website</h3>
+              <p>
+                A fully responsive 5-star hotel website featuring a bilingual
+                interface (EN/AR), interactive booking form, image gallery with
+                lightbox, and smooth scroll animations.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">HTML</span
+                ><span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span
+                ><span class="tech-tag">UI/UX</span>
+              </div>
+              <a
+                class="project-link"
+                href="https://alaa17gh.github.io/Baghdad-Hotel/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Live Demo ↗</a
+              >
+            </div>
+          </div>
+
+          <hr class="divider" />
+
+          <!-- CTA -->
+          <div class="cta-card reveal">
+            <h3>Like What You See?</h3>
+            <p>
+              I'm available for freelance projects. Let's build something great
+              together.
+            </p>
+            <button
+              class="btn-primary"
+              onclick="location.href = '#contact-section'"
+            >
+              Be My Next Project
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT -->
+      <section id="contact-section">
+        <div class="section-card">
+<h2 class="section-title reveal">Contact Me</h2>
+
+          <div class="contact-grid">
+          <div class="contact-left">
+          <!-- Info Card -->
+          <div class="inner-card reveal">
+            <div class="contact-row">
+              <div>
+                <span class="ci-label">Email</span>
+                <a class="ci-value" href="mailto:alaa.aljanaby.17gh@gmail.com"
+                  >alaa.aljanaby.17gh@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="contact-row">
+              <div>
+                <span class="ci-label">Phone</span>
+                <a class="ci-value" href="tel:+9647890580087"
+                  >+964 789 058 0087</a
+                >
+              </div>
+            </div>
+            <div class="contact-row">
+              <div>
+                <span class="ci-label">WhatsApp</span>
+                <a
+                  class="ci-value"
+                  href="https://wa.me/9647890580087"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >+964 789 058 0087</a
+                >
+              </div>
+            </div>
+            <div class="contact-row">
+              <div>
+                <span class="ci-label">Telegram</span>
+                <a
+                  class="ci-value"
+                  href="https://t.me/alaa17gh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >@alaa17gh</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Social Card -->
+          <div class="social-card reveal">
+            <a
+              class="social-link"
+              href="https://github.com/alaa17gh"
+              target="_blank"
+              rel="noopener noreferrer"
+              >⌥ GitHub</a
+            >
+            <a
+              class="social-link"
+              href="https://www.linkedin.com/in/alaa-aljanaby-140313410"
+              target="_blank"
+              rel="noopener noreferrer"
+              >⌘ LinkedIn</a
+            >
+            <a
+              class="social-link"
+              href="https://www.instagram.com/alaa17gh/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >◈ Instagram</a
+            >
+            <a
+              class="social-link"
+              href="https://t.me/alaa17gh"
+              target="_blank"
+              rel="noopener noreferrer"
+              >✈ Telegram</a
+            >
+            <a
+              class="social-link"
+              href="https://wa.me/9647890580087"
+              target="_blank"
+              rel="noopener noreferrer"
+              >◉ WhatsApp</a
+            >
+          </div>
+
+          </div><!-- /contact-left -->
+          <!-- Form Card -->
+          <div class="form-card reveal">
+            <form
+              id="contactForm"
+              action="https://formspree.io/f/xeenjrge"
+              method="POST"
+            >
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                autocomplete="name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                autocomplete="email"
+                required
+              />
+              <input
+                type="text"
+                name="subject"
+                placeholder="Subject"
+                autocomplete="off"
+              />
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button class="btn-primary" type="submit" id="submitBtn">
+                Send Message
+              </button>
+            </form>
+            <div
+              id="formSuccess"
+              style="display: none"
+              class="form-feedback form-success"
+            >
+              <p>✓ Message sent! I'll get back to you as soon as possible.</p>
+            </div>
+            <div
+              id="formError"
+              style="display: none"
+              class="form-feedback form-error"
+            >
+              <p>
+                ✗ Something went wrong. Please try again or email me directly.
+              </p>
+            </div>
+          </div>
+          </div><!-- /contact-grid -->
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer>
+        <div class="footer-card">
+          <p>
+            © <span id="year"></span>
+            <strong>ALAA ALJANABY</strong> &nbsp;|&nbsp; Designed & Built by
+            Alaa &nbsp;|&nbsp; Baghdad, Iraq
+          </p>
+        </div>
+      </footer>
+
+
+    </div>
+    <!-- main-card end -->
+    <script src="main.js"></script>
+  </body>
+</html>
